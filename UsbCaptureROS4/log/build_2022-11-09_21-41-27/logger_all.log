@@ -1,0 +1,300 @@
+[0.101s] DEBUG:colcon:Command line arguments: ['/bin/colcon', 'build']
+[0.101s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f2579b0f2b0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f2579b0f2b0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f2579b0f7f0>)
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.117s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/peter/ros2/UsbCaptureROS4'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extension 'ignore_ament_install'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extensions ['colcon_pkg']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extension 'colcon_pkg'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extensions ['colcon_meta']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extension 'colcon_meta'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extensions ['ros']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extension 'ros'
+[0.128s] DEBUG:colcon.colcon_core.package_identification:Package 'src/common' with type 'ros.ament_cmake' and name 'common'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore_ament_install'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_pkg']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_pkg'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_meta']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_meta'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ros']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ros'
+[0.129s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interfaces' with type 'ros.ament_cmake' and name 'interfaces'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_usbcapture) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_usbcapture) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_usbcapture) by extension 'ignore_ament_install'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_usbcapture) by extensions ['colcon_pkg']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_usbcapture) by extension 'colcon_pkg'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_usbcapture) by extensions ['colcon_meta']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_usbcapture) by extension 'colcon_meta'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_usbcapture) by extensions ['ros']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_usbcapture) by extension 'ros'
+[0.130s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_usbcapture' with type 'ros.ament_cmake' and name 'ros2_usbcapture'
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.154s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 278 installed packages in /opt/ros/foxy
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'common' build argument 'cmake_args' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'common' build argument 'cmake_target' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'common' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'common' build argument 'cmake_clean_cache' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'common' build argument 'cmake_clean_first' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'common' build argument 'cmake_force_configure' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'common' build argument 'ament_cmake_args' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'common' build argument 'catkin_cmake_args' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'common' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.200s] DEBUG:colcon.colcon_core.verb:Building package 'common' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/peter/ros2/UsbCaptureROS4/build/common', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/peter/ros2/UsbCaptureROS4/install/common', 'merge_install': False, 'path': '/home/peter/ros2/UsbCaptureROS4/src/common', 'symlink_install': False, 'test_result_base': None}
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.201s] DEBUG:colcon.colcon_core.verb:Building package 'interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/peter/ros2/UsbCaptureROS4/build/interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/peter/ros2/UsbCaptureROS4/install/interfaces', 'merge_install': False, 'path': '/home/peter/ros2/UsbCaptureROS4/src/interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'ros2_usbcapture' build argument 'cmake_args' from command line to 'None'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'ros2_usbcapture' build argument 'cmake_target' from command line to 'None'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'ros2_usbcapture' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'ros2_usbcapture' build argument 'cmake_clean_cache' from command line to 'False'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'ros2_usbcapture' build argument 'cmake_clean_first' from command line to 'False'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'ros2_usbcapture' build argument 'cmake_force_configure' from command line to 'False'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'ros2_usbcapture' build argument 'ament_cmake_args' from command line to 'None'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'ros2_usbcapture' build argument 'catkin_cmake_args' from command line to 'None'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'ros2_usbcapture' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.202s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_usbcapture' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/peter/ros2/UsbCaptureROS4/build/ros2_usbcapture', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture', 'merge_install': False, 'path': '/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture', 'symlink_install': False, 'test_result_base': None}
+[0.202s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.205s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.205s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/peter/ros2/UsbCaptureROS4/src/common' with build type 'ament_cmake'
+[0.205s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/peter/ros2/UsbCaptureROS4/src/common'
+[0.208s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.208s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.208s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.212s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/peter/ros2/UsbCaptureROS4/src/interfaces' with build type 'ament_cmake'
+[0.213s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/peter/ros2/UsbCaptureROS4/src/interfaces'
+[0.214s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.214s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/peter/ros2/UsbCaptureROS4/build/common': CMAKE_PREFIX_PATH=/opt/ros/foxy /bin/cmake --build /home/peter/ros2/UsbCaptureROS4/build/common -- -j16 -l16
+[0.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/peter/ros2/UsbCaptureROS4/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /bin/cmake --build /home/peter/ros2/UsbCaptureROS4/build/interfaces -- -j16 -l16
+[0.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/peter/ros2/UsbCaptureROS4/build/common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /bin/cmake --build /home/peter/ros2/UsbCaptureROS4/build/common -- -j16 -l16
+[0.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/peter/ros2/UsbCaptureROS4/build/common': CMAKE_PREFIX_PATH=/opt/ros/foxy /bin/cmake --install /home/peter/ros2/UsbCaptureROS4/build/common
+[0.334s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(common)
+[0.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/peter/ros2/UsbCaptureROS4/build/common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /bin/cmake --install /home/peter/ros2/UsbCaptureROS4/build/common
+[0.340s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/common' for CMake module files
+[0.340s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/common' for CMake config files
+[0.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('common', 'cmake_prefix_path')
+[0.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/ros2/UsbCaptureROS4/install/common/share/common/hook/cmake_prefix_path.ps1'
+[0.342s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peter/ros2/UsbCaptureROS4/install/common/share/common/hook/cmake_prefix_path.dsv'
+[0.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/ros2/UsbCaptureROS4/install/common/share/common/hook/cmake_prefix_path.sh'
+[0.343s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/common/lib'
+[0.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('common', 'ld_library_path_lib')
+[0.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/ros2/UsbCaptureROS4/install/common/share/common/hook/ld_library_path_lib.ps1'
+[0.345s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peter/ros2/UsbCaptureROS4/install/common/share/common/hook/ld_library_path_lib.dsv'
+[0.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/ros2/UsbCaptureROS4/install/common/share/common/hook/ld_library_path_lib.sh'
+[0.346s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/common/bin'
+[0.346s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/common/lib/pkgconfig/common.pc'
+[0.346s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/common/lib/python3.8/site-packages'
+[0.346s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/common/bin'
+[0.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/ros2/UsbCaptureROS4/install/common/share/common/package.ps1'
+[0.348s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/peter/ros2/UsbCaptureROS4/install/common/share/common/package.dsv'
+[0.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/ros2/UsbCaptureROS4/install/common/share/common/package.sh'
+[0.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/ros2/UsbCaptureROS4/install/common/share/common/package.bash'
+[0.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/ros2/UsbCaptureROS4/install/common/share/common/package.zsh'
+[0.350s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/peter/ros2/UsbCaptureROS4/install/common/share/colcon-core/packages/common)
+[0.373s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(common)
+[0.375s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/common' for CMake module files
+[0.375s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/common' for CMake config files
+[0.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('common', 'cmake_prefix_path')
+[0.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/ros2/UsbCaptureROS4/install/common/share/common/hook/cmake_prefix_path.ps1'
+[0.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peter/ros2/UsbCaptureROS4/install/common/share/common/hook/cmake_prefix_path.dsv'
+[0.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/ros2/UsbCaptureROS4/install/common/share/common/hook/cmake_prefix_path.sh'
+[0.379s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/common/lib'
+[0.379s] Level 1:colcon.colcon_core.shell:create_environment_hook('common', 'ld_library_path_lib')
+[0.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/ros2/UsbCaptureROS4/install/common/share/common/hook/ld_library_path_lib.ps1'
+[0.380s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peter/ros2/UsbCaptureROS4/install/common/share/common/hook/ld_library_path_lib.dsv'
+[0.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/ros2/UsbCaptureROS4/install/common/share/common/hook/ld_library_path_lib.sh'
+[0.381s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/common/bin'
+[0.381s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/common/lib/pkgconfig/common.pc'
+[0.381s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/common/lib/python3.8/site-packages'
+[0.381s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/common/bin'
+[0.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/ros2/UsbCaptureROS4/install/common/share/common/package.ps1'
+[0.383s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/peter/ros2/UsbCaptureROS4/install/common/share/common/package.dsv'
+[0.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/ros2/UsbCaptureROS4/install/common/share/common/package.sh'
+[0.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/ros2/UsbCaptureROS4/install/common/share/common/package.bash'
+[0.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/ros2/UsbCaptureROS4/install/common/share/common/package.zsh'
+[0.384s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/peter/ros2/UsbCaptureROS4/install/common/share/colcon-core/packages/common)
+[0.433s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/peter/ros2/UsbCaptureROS4/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /bin/cmake --build /home/peter/ros2/UsbCaptureROS4/build/interfaces -- -j16 -l16
+[0.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/peter/ros2/UsbCaptureROS4/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /bin/cmake --install /home/peter/ros2/UsbCaptureROS4/build/interfaces
+[0.544s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[0.547s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/interfaces' for CMake module files
+[0.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/peter/ros2/UsbCaptureROS4/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /bin/cmake --install /home/peter/ros2/UsbCaptureROS4/build/interfaces
+[0.548s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/interfaces' for CMake config files
+[0.548s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[0.551s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/interfaces/lib'
+[0.552s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[0.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[0.553s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[0.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[0.554s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/interfaces/bin'
+[0.554s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/pkgconfig/interfaces.pc'
+[0.555s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/python3.8/site-packages'
+[0.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'pythonpath')
+[0.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/hook/pythonpath.ps1'
+[0.557s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/hook/pythonpath.dsv'
+[0.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/hook/pythonpath.sh'
+[0.557s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/interfaces/bin'
+[0.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/package.ps1'
+[0.558s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/package.dsv'
+[0.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/package.sh'
+[0.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/package.bash'
+[0.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/package.zsh'
+[0.559s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/colcon-core/packages/interfaces)
+[0.623s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[0.625s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/interfaces' for CMake module files
+[0.625s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/interfaces' for CMake config files
+[0.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[0.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[0.630s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[0.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/interfaces/lib'
+[0.632s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[0.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[0.634s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[0.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[0.634s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/interfaces/bin'
+[0.634s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/pkgconfig/interfaces.pc'
+[0.634s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/python3.8/site-packages'
+[0.634s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'pythonpath')
+[0.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/hook/pythonpath.ps1'
+[0.635s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/hook/pythonpath.dsv'
+[0.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/hook/pythonpath.sh'
+[0.636s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/interfaces/bin'
+[0.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/package.ps1'
+[0.637s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/package.dsv'
+[0.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/package.sh'
+[0.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/package.bash'
+[0.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/package.zsh'
+[0.638s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/colcon-core/packages/interfaces)
+[0.638s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture' with build type 'ament_cmake'
+[0.638s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture'
+[0.639s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.639s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/peter/ros2/UsbCaptureROS4/build/ros2_usbcapture': AMENT_PREFIX_PATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces:/home/peter/ros2/UsbCaptureROS4/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces:/home/peter/ros2/UsbCaptureROS4/install/common:/opt/ros/foxy LD_LIBRARY_PATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces/lib:/home/peter/ros2/UsbCaptureROS4/install/common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /bin/cmake --build /home/peter/ros2/UsbCaptureROS4/build/ros2_usbcapture -- -j16 -l16
+[4.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/peter/ros2/UsbCaptureROS4/build/ros2_usbcapture' returned '0': AMENT_PREFIX_PATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces:/home/peter/ros2/UsbCaptureROS4/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces:/home/peter/ros2/UsbCaptureROS4/install/common:/opt/ros/foxy LD_LIBRARY_PATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces/lib:/home/peter/ros2/UsbCaptureROS4/install/common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /bin/cmake --build /home/peter/ros2/UsbCaptureROS4/build/ros2_usbcapture -- -j16 -l16
+[4.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/peter/ros2/UsbCaptureROS4/build/ros2_usbcapture': AMENT_PREFIX_PATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces:/home/peter/ros2/UsbCaptureROS4/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces:/home/peter/ros2/UsbCaptureROS4/install/common:/opt/ros/foxy LD_LIBRARY_PATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces/lib:/home/peter/ros2/UsbCaptureROS4/install/common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /bin/cmake --install /home/peter/ros2/UsbCaptureROS4/build/ros2_usbcapture
+[4.290s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_usbcapture)
+[4.293s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture' for CMake module files
+[4.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/peter/ros2/UsbCaptureROS4/build/ros2_usbcapture' returned '0': AMENT_PREFIX_PATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces:/home/peter/ros2/UsbCaptureROS4/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces:/home/peter/ros2/UsbCaptureROS4/install/common:/opt/ros/foxy LD_LIBRARY_PATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces/lib:/home/peter/ros2/UsbCaptureROS4/install/common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /bin/cmake --install /home/peter/ros2/UsbCaptureROS4/build/ros2_usbcapture
+[4.293s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture' for CMake config files
+[4.293s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_usbcapture', 'cmake_prefix_path')
+[4.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/hook/cmake_prefix_path.ps1'
+[4.295s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/hook/cmake_prefix_path.dsv'
+[4.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/hook/cmake_prefix_path.sh'
+[4.295s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/lib'
+[4.296s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_usbcapture', 'ld_library_path_lib')
+[4.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/hook/ld_library_path_lib.ps1'
+[4.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/hook/ld_library_path_lib.dsv'
+[4.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/hook/ld_library_path_lib.sh'
+[4.297s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/bin'
+[4.297s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/lib/pkgconfig/ros2_usbcapture.pc'
+[4.298s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/lib/python3.8/site-packages'
+[4.298s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/bin'
+[4.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/package.ps1'
+[4.299s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/package.dsv'
+[4.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/package.sh'
+[4.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/package.bash'
+[4.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/package.zsh'
+[4.300s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/colcon-core/packages/ros2_usbcapture)
+[4.320s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_usbcapture)
+[4.321s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture' for CMake module files
+[4.322s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture' for CMake config files
+[4.322s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_usbcapture', 'cmake_prefix_path')
+[4.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/hook/cmake_prefix_path.ps1'
+[4.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/hook/cmake_prefix_path.dsv'
+[4.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/hook/cmake_prefix_path.sh'
+[4.325s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/lib'
+[4.325s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_usbcapture', 'ld_library_path_lib')
+[4.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/hook/ld_library_path_lib.ps1'
+[4.326s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/hook/ld_library_path_lib.dsv'
+[4.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/hook/ld_library_path_lib.sh'
+[4.327s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/bin'
+[4.327s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/lib/pkgconfig/ros2_usbcapture.pc'
+[4.327s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/lib/python3.8/site-packages'
+[4.327s] Level 1:colcon.colcon_core.environment:checking '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/bin'
+[4.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/package.ps1'
+[4.329s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/package.dsv'
+[4.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/package.sh'
+[4.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/package.bash'
+[4.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/package.zsh'
+[4.330s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/colcon-core/packages/ros2_usbcapture)
+[4.331s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.331s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.331s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.331s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.337s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.338s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.338s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.356s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.358s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/peter/ros2/UsbCaptureROS4/install/local_setup.ps1'
+[4.358s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/peter/ros2/UsbCaptureROS4/install/_local_setup_util_ps1.py'
+[4.359s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/peter/ros2/UsbCaptureROS4/install/setup.ps1'
+[4.361s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/peter/ros2/UsbCaptureROS4/install/local_setup.sh'
+[4.361s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/peter/ros2/UsbCaptureROS4/install/_local_setup_util_sh.py'
+[4.362s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/peter/ros2/UsbCaptureROS4/install/setup.sh'
+[4.363s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/peter/ros2/UsbCaptureROS4/install/local_setup.bash'
+[4.364s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/peter/ros2/UsbCaptureROS4/install/setup.bash'
+[4.365s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/peter/ros2/UsbCaptureROS4/install/local_setup.zsh'
+[4.365s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/peter/ros2/UsbCaptureROS4/install/setup.zsh'

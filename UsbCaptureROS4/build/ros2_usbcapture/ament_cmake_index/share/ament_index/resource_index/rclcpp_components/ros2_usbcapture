@@ -1,0 +1,2 @@
+wmj::camera_node;lib/libcamera_component.so
+wmj::Image_get_test;lib/libtest_component.so

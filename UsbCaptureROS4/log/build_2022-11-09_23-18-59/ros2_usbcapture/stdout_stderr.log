@@ -1,0 +1,19 @@
+[35m[1mScanning dependencies of target camera_component[0m
+[ 40%] Built target test_component
+[ 60%] [32mBuilding CXX object CMakeFiles/camera_component.dir/src/RosNode.cpp.o[0m
+[01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:[m[K In member function ‘[01m[Kvoid wmj::camera_node::timer_call_back()[m[K’:
+[01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:53:42:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kinterfaces::msg::MatWithTime_<std::allocator<void> >::_image_type[m[K’ {aka ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >[m[K’} and ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >[m[K’})
+   53 |         msg->image =  img_msg.toImageMsg([01;31m[K)[m[K;
+      |                                          [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/include/ros2_usbcapture/RosNode.h:6[m[K,
+                 from [01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/image__struct.hpp:35:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >& sensor_msgs::msg::Image_<std::allocator<void> >::operator=(const sensor_msgs::msg::Image_<std::allocator<void> >&)[m[K’
+   35 | struct [01;36m[KImage_[m[K
+      |        [01;36m[K^~~~~~[m[K
+[01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/image__struct.hpp:35:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >[m[K’} to ‘[01m[Kconst sensor_msgs::msg::Image_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/image__struct.hpp:35:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >& sensor_msgs::msg::Image_<std::allocator<void> >::operator=(sensor_msgs::msg::Image_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/image__struct.hpp:35:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >[m[K’} to ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >&&[m[K’
+make[2]: *** [CMakeFiles/camera_component.dir/build.make:63：CMakeFiles/camera_component.dir/src/RosNode.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:107：CMakeFiles/camera_component.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

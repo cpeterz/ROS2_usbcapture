@@ -1,0 +1,27 @@
+[35m[1mScanning dependencies of target camera_component[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/test_component.dir/src/test_get_image.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/camera_component.dir/src/RosNode.cpp.o[0m
+[01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/test_get_image.cpp:[m[K In member function ‘[01m[Kvoid wmj::Image_get_test::call_back(interfaces::msg::MatWithTime_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/test_get_image.cpp:23:61:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KtoCvShare(interfaces::msg::MatWithTime_<std::allocator<void> >::_image_type&, const char [5])[m[K’
+   23 |             cv_ptr = cv_bridge::toCvShare(msg->image, "bgr8"[01;31m[K)[m[K;
+      |                                                             [01;31m[K^[m[K
+In file included from [01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/include/ros2_usbcapture/test_get_image.h:13[m[K,
+                 from [01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/test_get_image.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:232:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImageConstPtr cv_bridge::toCvShare(const ConstSharedPtr&, const string&)[m[K’
+  232 | CV_BRIDGE_EXPORT CvImageConstPtr [01;36m[KtoCvShare[m[K(
+      |                                  [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:233:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kinterfaces::msg::MatWithTime_<std::allocator<void> >::_image_type[m[K’ {aka ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >[m[K’} to ‘[01m[Kconst ConstSharedPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&[m[K’}
+  233 |   [01;36m[Kconst sensor_msgs::msg::Image::ConstSharedPtr & source[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:260:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImageConstPtr cv_bridge::toCvShare(const Image&, const std::shared_ptr<const void>&, const string&)[m[K’
+  260 | CV_BRIDGE_EXPORT CvImageConstPtr [01;36m[KtoCvShare[m[K(
+      |                                  [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:155:41:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kconst char [5][m[K’ to ‘[01m[Kconst std::shared_ptr<const void>&[m[K’
+  155 |     [01;36m[Kconst std::shared_ptr<void const> & tracked_object[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[ 60%] [32m[1mLinking CXX shared library libcamera_component.so[0m
+make[2]: *** [CMakeFiles/test_component.dir/build.make:63：CMakeFiles/test_component.dir/src/test_get_image.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/test_component.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+[ 80%] Built target camera_component
+make: *** [Makefile:141：all] 错误 2

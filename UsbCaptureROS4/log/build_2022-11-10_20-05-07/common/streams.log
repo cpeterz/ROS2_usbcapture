@@ -1,0 +1,98 @@
+[0.017s] Invoking command in '/home/peter/ros2.1/UsbCaptureROS4/build/common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake /home/peter/ros2.1/UsbCaptureROS4/src/common -DCMAKE_INSTALL_PREFIX=/home/peter/ros2.1/UsbCaptureROS4/install/common
+[0.068s] -- The C compiler identification is GNU 9.4.0
+[0.119s] -- The CXX compiler identification is GNU 9.4.0
+[0.122s] -- Check for working C compiler: /bin/cc
+[0.176s] -- Check for working C compiler: /bin/cc -- works
+[0.177s] -- Detecting C compiler ABI info
+[0.234s] -- Detecting C compiler ABI info - done
+[0.246s] -- Detecting C compile features
+[0.246s] -- Detecting C compile features - done
+[0.248s] -- Check for working CXX compiler: /bin/c++
+[0.313s] -- Check for working CXX compiler: /bin/c++ -- works
+[0.313s] -- Detecting CXX compiler ABI info
+[0.381s] -- Detecting CXX compiler ABI info - done
+[0.393s] -- Detecting CXX compile features
+[0.394s] -- Detecting CXX compile features - done
+[0.396s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.419s] -- Found PythonInterp: /bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.419s] -- Using PYTHON_EXECUTABLE: /bin/python3
+[0.556s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.586s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.590s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.641s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.666s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.720s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.759s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.760s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.761s] -- Looking for pthread.h
+[0.816s] -- Looking for pthread.h - found
+[0.816s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.873s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.873s] -- Looking for pthread_create in pthreads
+[0.922s] -- Looking for pthread_create in pthreads - not found
+[0.922s] -- Looking for pthread_create in pthread
+[0.983s] -- Looking for pthread_create in pthread - found
+[0.984s] -- Found Threads: TRUE  
+[1.098s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.153s] CMake Warning (dev) at CMakeLists.txt:37 (set):
+[1.153s]   Cannot set "BASE_INCLUDE": current scope has no parent.
+[1.153s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.153s] 
+[1.164s] -- Found OpenCV: /usr (found version "4.2.0") 
+[1.180s] -- Found required Ceres dependency: Eigen version 3.3.9 in /usr/local/include/eigen3
+[1.189s] -- Found required Ceres dependency: glog
+[1.190s] -- Found required Ceres dependency: gflags
+[1.190s] -- Found Ceres version: 2.0.0 installed in: /usr/local with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SchurSpecializations, Multithreading]
+[1.194s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.195s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.195s] -- Configured cppcheck include dirs: /home/peter/ros2.1/UsbCaptureROS4/src/common/./include;/home/peter/ros2.1/UsbCaptureROS4/src/common/include;$<BUILD_INTERFACE:/home/peter/ros2.1/UsbCaptureROS4/src/common/include>
+[1.195s] -- Configured cppcheck exclude dirs and/or files: 
+[1.196s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.196s] -- Configured cpplint exclude dirs and/or files: 
+[1.196s] -- Added test 'lint_cmake' to check CMake code style
+[1.197s] -- Added test 'uncrustify' to check C / C++ code style
+[1.197s] -- Configured uncrustify additional arguments: 
+[1.197s] -- Added test 'xmllint' to check XML markup files
+[1.200s] -- Configuring done
+[1.208s] -- Generating done
+[1.209s] -- Build files have been written to: /home/peter/ros2.1/UsbCaptureROS4/build/common
+[1.216s] Invoked command in '/home/peter/ros2.1/UsbCaptureROS4/build/common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake /home/peter/ros2.1/UsbCaptureROS4/src/common -DCMAKE_INSTALL_PREFIX=/home/peter/ros2.1/UsbCaptureROS4/install/common
+[1.219s] Invoking command in '/home/peter/ros2.1/UsbCaptureROS4/build/common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --build /home/peter/ros2.1/UsbCaptureROS4/build/common -- -j16 -l16
+[1.247s] [35m[1mScanning dependencies of target Base[0m
+[1.247s] [35m[1mScanning dependencies of target common[0m
+[1.268s] [ 50%] [32mBuilding CXX object CMakeFiles/Base.dir/src/common.cpp.o[0m
+[1.268s] [ 50%] [32mBuilding CXX object CMakeFiles/common.dir/src/common.cpp.o[0m
+[2.824s] [ 75%] [32m[1mLinking CXX shared library libBase.so[0m
+[2.860s] [100%] [32m[1mLinking CXX shared library libcommon.so[0m
+[2.931s] [100%] Built target common
+[3.003s] [100%] Built target Base
+[3.015s] Invoked command in '/home/peter/ros2.1/UsbCaptureROS4/build/common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --build /home/peter/ros2.1/UsbCaptureROS4/build/common -- -j16 -l16
+[3.045s] Invoking command in '/home/peter/ros2.1/UsbCaptureROS4/build/common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --install /home/peter/ros2.1/UsbCaptureROS4/build/common
+[3.051s] -- Install configuration: ""
+[3.051s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/common/share/common/environment/library_path.sh
+[3.052s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/common/share/common/environment/library_path.dsv
+[3.052s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/common/include
+[3.052s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/common/include/common
+[3.052s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/common/include/common/common.h
+[3.052s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/common/lib/libcommon.so
+[3.052s] -- Set runtime path of "/home/peter/ros2.1/UsbCaptureROS4/install/common/lib/libcommon.so" to ""
+[3.052s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/common/share/ament_index/resource_index/package_run_dependencies/common
+[3.053s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/common/share/ament_index/resource_index/parent_prefix_path/common
+[3.053s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/common/share/common/environment/ament_prefix_path.sh
+[3.053s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/common/share/common/environment/ament_prefix_path.dsv
+[3.053s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/common/share/common/environment/path.sh
+[3.053s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/common/share/common/environment/path.dsv
+[3.053s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/common/share/common/local_setup.bash
+[3.053s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/common/share/common/local_setup.sh
+[3.053s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/common/share/common/local_setup.zsh
+[3.053s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/common/share/common/local_setup.dsv
+[3.054s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/common/share/common/package.dsv
+[3.054s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/common/share/ament_index/resource_index/packages/common
+[3.054s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/common/share/common/cmake/commonExport.cmake
+[3.054s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/common/share/common/cmake/commonExport-noconfig.cmake
+[3.054s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/common/share/common/cmake/ament_cmake_export_targets-extras.cmake
+[3.054s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/common/share/common/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.054s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/common/share/common/cmake/commonConfig.cmake
+[3.054s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/common/share/common/cmake/commonConfig-version.cmake
+[3.054s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/common/share/common/package.xml
+[3.056s] Invoked command in '/home/peter/ros2.1/UsbCaptureROS4/build/common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --install /home/peter/ros2.1/UsbCaptureROS4/build/common

@@ -1,0 +1,58 @@
+%YAML:1.0
+---
+#cameras数量可变，有几个相机就写几组。orintation任意填写，与代码中取图像的orientation一致即可。serial_number填序列号
+cameras:
+    -
+#       orientation: left
+#       serial_number: KE0190060243
+#       trigger: 1
+#    -
+#       orientation: right
+#       serial_number: KE0190060246
+#       trigger: 1
+#    -
+      orientation: single
+      serial_number: KE0190060239
+      trigger: 0
+# 白平衡
+whitebalance:
+    
+    auto_wb  : 0 # 0 手动; 1 自动白平衡
+    wb_red   : 1.6484
+    wb_green : 1.000
+    wb_blue  : 1.5664
+
+# 曝光
+exposure:
+    #暂未使用
+    mode: 0 # 0 MANUAL; 1 AUTO
+    expected_grayscale : 100 # 期望灰度值，用于自动曝光
+
+    # 特殊模式曝光
+    normal: 0
+    rune: 2000
+    dart: 5000
+    lob: 2000
+    calib: 12000
+    record: 7000
+
+    # 可调曝光等级，armor和dark使用
+    # 反陀螺和普通自瞄默认为中曝光，打哨兵默认高曝光
+    low:    1000
+    middle: 5000
+    high:   5000
+
+# 增益
+gain:
+    normal: 10.0 
+    armor: 10.0 #自瞄
+    dark: 10.0 #反哨兵
+    rune: 10.0 #打符
+    dart: 10.0 #反导
+    lob: 10.0 #吊射
+    calib: 10.0 #标定
+    record: 10.0 #录制
+#便于后期使用多种触发方式
+trigger:
+    trigger_source: line2
+    trigger_activation: risingedge

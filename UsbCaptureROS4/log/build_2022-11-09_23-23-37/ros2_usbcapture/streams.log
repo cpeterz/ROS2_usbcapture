@@ -1,0 +1,26 @@
+[0.012s] Invoking command in '/home/peter/ros2/UsbCaptureROS4/build/ros2_usbcapture': CMAKE_PREFIX_PATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces:/home/peter/ros2/UsbCaptureROS4/install/common:/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture:/opt/ros/foxy LD_LIBRARY_PATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces/lib:/home/peter/ros2/UsbCaptureROS4/install/common/lib:/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /bin/cmake --build /home/peter/ros2/UsbCaptureROS4/build/ros2_usbcapture -- -j16 -l16
+[0.053s] [35m[1mScanning dependencies of target test_component[0m
+[0.067s] [ 60%] Built target camera_component
+[0.075s] [ 80%] [32mBuilding CXX object CMakeFiles/test_component.dir/src/test_get_image.cpp.o[0m
+[1.829s] [01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/test_get_image.cpp:[m[K In member function ‘[01m[Kvoid wmj::Image_get_test::call_back(interfaces::msg::MatWithTime_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.829s] [01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/test_get_image.cpp:21:93:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KtoCvShare(sensor_msgs::msg::Image&, const char [5])[m[K’
+[1.829s]    21 |             cv_ptr = cv_bridge::toCvShare(image_copy,sensor_msgs::image_encodings::TYPE_8UC3[01;31m[K)[m[K;
+[1.829s]       |                                                                                             [01;31m[K^[m[K
+[1.829s] In file included from [01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/include/ros2_usbcapture/test_get_image.h:13[m[K,
+[1.829s]                  from [01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/test_get_image.cpp:1[m[K:
+[1.829s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:232:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImageConstPtr cv_bridge::toCvShare(const ConstSharedPtr&, const string&)[m[K’
+[1.829s]   232 | CV_BRIDGE_EXPORT CvImageConstPtr [01;36m[KtoCvShare[m[K(
+[1.829s]       |                                  [01;36m[K^~~~~~~~~[m[K
+[1.830s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:233:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksensor_msgs::msg::Image[m[K’ {aka ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >[m[K’} to ‘[01m[Kconst ConstSharedPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&[m[K’}
+[1.830s]   233 |   [01;36m[Kconst sensor_msgs::msg::Image::ConstSharedPtr & source[m[K,
+[1.830s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.830s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:260:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImageConstPtr cv_bridge::toCvShare(const Image&, const std::shared_ptr<const void>&, const string&)[m[K’
+[1.830s]   260 | CV_BRIDGE_EXPORT CvImageConstPtr [01;36m[KtoCvShare[m[K(
+[1.830s]       |                                  [01;36m[K^~~~~~~~~[m[K
+[1.830s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:155:41:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kconst char [5][m[K’ to ‘[01m[Kconst std::shared_ptr<const void>&[m[K’
+[1.830s]   155 |     [01;36m[Kconst std::shared_ptr<void const> & tracked_object[m[K,
+[1.830s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[3.408s] make[2]: *** [CMakeFiles/test_component.dir/build.make:63：CMakeFiles/test_component.dir/src/test_get_image.cpp.o] 错误 1
+[3.409s] make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/test_component.dir/all] 错误 2
+[3.409s] make: *** [Makefile:141：all] 错误 2
+[3.411s] Invoked command in '/home/peter/ros2/UsbCaptureROS4/build/ros2_usbcapture' returned '2': CMAKE_PREFIX_PATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces:/home/peter/ros2/UsbCaptureROS4/install/common:/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture:/opt/ros/foxy LD_LIBRARY_PATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces/lib:/home/peter/ros2/UsbCaptureROS4/install/common/lib:/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /bin/cmake --build /home/peter/ros2/UsbCaptureROS4/build/ros2_usbcapture -- -j16 -l16

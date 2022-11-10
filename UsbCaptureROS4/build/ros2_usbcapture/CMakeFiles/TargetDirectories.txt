@@ -1,0 +1,11 @@
+/home/peter/ros2.1/UsbCaptureROS4/build/ros2_usbcapture/CMakeFiles/install/strip.dir
+/home/peter/ros2.1/UsbCaptureROS4/build/ros2_usbcapture/CMakeFiles/install/local.dir
+/home/peter/ros2.1/UsbCaptureROS4/build/ros2_usbcapture/CMakeFiles/edit_cache.dir
+/home/peter/ros2.1/UsbCaptureROS4/build/ros2_usbcapture/CMakeFiles/test.dir
+/home/peter/ros2.1/UsbCaptureROS4/build/ros2_usbcapture/CMakeFiles/test_component.dir
+/home/peter/ros2.1/UsbCaptureROS4/build/ros2_usbcapture/CMakeFiles/camera_component.dir
+/home/peter/ros2.1/UsbCaptureROS4/build/ros2_usbcapture/CMakeFiles/install.dir
+/home/peter/ros2.1/UsbCaptureROS4/build/ros2_usbcapture/CMakeFiles/list_install_components.dir
+/home/peter/ros2.1/UsbCaptureROS4/build/ros2_usbcapture/CMakeFiles/rebuild_cache.dir
+/home/peter/ros2.1/UsbCaptureROS4/build/ros2_usbcapture/CMakeFiles/ros2_usbcapture_uninstall.dir
+/home/peter/ros2.1/UsbCaptureROS4/build/ros2_usbcapture/CMakeFiles/uninstall.dir

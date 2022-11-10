@@ -1,0 +1,27 @@
+[0.012s] Invoking command in '/home/peter/ros2.1/UsbCaptureROS4/build/ros2_usbcapture': CMAKE_PREFIX_PATH=/home/peter/ros2.1/UsbCaptureROS4/install/interfaces:/home/peter/ros2.1/UsbCaptureROS4/install/common:/home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture:/opt/ros/foxy LD_LIBRARY_PATH=/home/peter/ros2.1/UsbCaptureROS4/install/interfaces/lib:/home/peter/ros2.1/UsbCaptureROS4/install/common/lib:/home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /bin/cmake --build /home/peter/ros2.1/UsbCaptureROS4/build/ros2_usbcapture -- -j16 -l16
+[0.076s] [100%] Built target test_component
+[0.077s] [100%] Built target camera_component
+[0.086s] Invoked command in '/home/peter/ros2.1/UsbCaptureROS4/build/ros2_usbcapture' returned '0': CMAKE_PREFIX_PATH=/home/peter/ros2.1/UsbCaptureROS4/install/interfaces:/home/peter/ros2.1/UsbCaptureROS4/install/common:/home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture:/opt/ros/foxy LD_LIBRARY_PATH=/home/peter/ros2.1/UsbCaptureROS4/install/interfaces/lib:/home/peter/ros2.1/UsbCaptureROS4/install/common/lib:/home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /bin/cmake --build /home/peter/ros2.1/UsbCaptureROS4/build/ros2_usbcapture -- -j16 -l16
+[0.116s] Invoking command in '/home/peter/ros2.1/UsbCaptureROS4/build/ros2_usbcapture': CMAKE_PREFIX_PATH=/home/peter/ros2.1/UsbCaptureROS4/install/interfaces:/home/peter/ros2.1/UsbCaptureROS4/install/common:/home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture:/opt/ros/foxy LD_LIBRARY_PATH=/home/peter/ros2.1/UsbCaptureROS4/install/interfaces/lib:/home/peter/ros2.1/UsbCaptureROS4/install/common/lib:/home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /bin/cmake --install /home/peter/ros2.1/UsbCaptureROS4/build/ros2_usbcapture
+[0.123s] -- Install configuration: ""
+[0.123s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/lib/libcamera_component.so
+[0.123s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/lib/libtest_component.so
+[0.124s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/launch
+[0.124s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/launch/image.launch.py
+[0.124s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ament_index/resource_index/package_run_dependencies/ros2_usbcapture
+[0.124s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ament_index/resource_index/parent_prefix_path/ros2_usbcapture
+[0.124s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/environment/ament_prefix_path.sh
+[0.124s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/environment/ament_prefix_path.dsv
+[0.124s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/environment/path.sh
+[0.124s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/environment/path.dsv
+[0.124s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/local_setup.bash
+[0.124s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/local_setup.sh
+[0.124s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/local_setup.zsh
+[0.124s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/local_setup.dsv
+[0.124s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/package.dsv
+[0.124s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ament_index/resource_index/packages/ros2_usbcapture
+[0.125s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ament_index/resource_index/rclcpp_components/ros2_usbcapture
+[0.125s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/cmake/ros2_usbcaptureConfig.cmake
+[0.125s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/cmake/ros2_usbcaptureConfig-version.cmake
+[0.125s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/package.xml
+[0.126s] Invoked command in '/home/peter/ros2.1/UsbCaptureROS4/build/ros2_usbcapture' returned '0': CMAKE_PREFIX_PATH=/home/peter/ros2.1/UsbCaptureROS4/install/interfaces:/home/peter/ros2.1/UsbCaptureROS4/install/common:/home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture:/opt/ros/foxy LD_LIBRARY_PATH=/home/peter/ros2.1/UsbCaptureROS4/install/interfaces/lib:/home/peter/ros2.1/UsbCaptureROS4/install/common/lib:/home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /bin/cmake --install /home/peter/ros2.1/UsbCaptureROS4/build/ros2_usbcapture

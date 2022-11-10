@@ -1,0 +1,12 @@
+[0.011s] Invoking command in '/home/peter/ros2/UsbCaptureROS4/build/ros2_usbcapture': AMENT_PREFIX_PATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces:/home/peter/ros2/UsbCaptureROS4/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces:/home/peter/ros2/UsbCaptureROS4/install/common:/opt/ros/foxy LD_LIBRARY_PATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces/lib:/home/peter/ros2/UsbCaptureROS4/install/common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /bin/cmake --build /home/peter/ros2/UsbCaptureROS4/build/ros2_usbcapture -- -j16 -l16
+[0.058s] [35m[1mScanning dependencies of target camera_component[0m
+[0.076s] [ 40%] Built target test_component
+[0.083s] [ 60%] [32mBuilding CXX object CMakeFiles/camera_component.dir/src/RosNode.cpp.o[0m
+[1.821s] [01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:[m[K In member function ‘[01m[Kvoid wmj::camera_node::timer_call_back()[m[K’:
+[1.821s] [01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:34:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kcapture[m[K’ is not a member of ‘[01m[Kwmj::camera_node[m[K’
+[1.821s]    34 |         if ((camera_node::[01;31m[Kcapture[m[K >> frame) != 0)
+[1.821s]       |                           [01;31m[K^~~~~~~[m[K
+[2.603s] make[2]: *** [CMakeFiles/camera_component.dir/build.make:63：CMakeFiles/camera_component.dir/src/RosNode.cpp.o] 错误 1
+[2.603s] make[1]: *** [CMakeFiles/Makefile2:107：CMakeFiles/camera_component.dir/all] 错误 2
+[2.603s] make: *** [Makefile:141：all] 错误 2
+[2.605s] Invoked command in '/home/peter/ros2/UsbCaptureROS4/build/ros2_usbcapture' returned '2': AMENT_PREFIX_PATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces:/home/peter/ros2/UsbCaptureROS4/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces:/home/peter/ros2/UsbCaptureROS4/install/common:/opt/ros/foxy LD_LIBRARY_PATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces/lib:/home/peter/ros2/UsbCaptureROS4/install/common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /bin/cmake --build /home/peter/ros2/UsbCaptureROS4/build/ros2_usbcapture -- -j16 -l16

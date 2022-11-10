@@ -1,0 +1,113 @@
+[0.018s] Invoking command in '/home/peter/ros2/UsbCaptureROS4/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --build /home/peter/ros2/UsbCaptureROS4/build/interfaces -- -j16 -l16
+[0.064s] [  3%] Built target interfaces__cpp
+[0.066s] [ 12%] Built target interfaces__rosidl_generator_c
+[0.087s] [ 41%] Built target interfaces__rosidl_typesupport_introspection_c
+[0.087s] [ 48%] Built target interfaces__rosidl_typesupport_cpp
+[0.088s] [ 48%] Built target interfaces__rosidl_typesupport_c
+[0.088s] [ 51%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[0.094s] [ 61%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[0.121s] [ 70%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[0.140s] [ 70%] Built target interfaces
+[0.160s] [ 74%] Built target interfaces__py
+[0.185s] [ 80%] Built target interfaces__python
+[0.213s] [ 96%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.213s] [ 96%] Built target interfaces__rosidl_typesupport_c__pyext
+[0.213s] [100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[0.224s] Invoked command in '/home/peter/ros2/UsbCaptureROS4/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --build /home/peter/ros2/UsbCaptureROS4/build/interfaces -- -j16 -l16
+[0.294s] Invoking command in '/home/peter/ros2/UsbCaptureROS4/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --install /home/peter/ros2/UsbCaptureROS4/build/interfaces
+[0.304s] -- Install configuration: ""
+[0.304s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[0.304s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces
+[0.305s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg
+[0.305s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg/mat_with_time.h
+[0.305s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg/detail
+[0.305s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg/detail/mat_with_time__functions.h
+[0.305s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg/detail/mat_with_time__struct.h
+[0.305s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg/detail/mat_with_time__type_support.h
+[0.305s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg/detail/mat_with_time__functions.c
+[0.305s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.305s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/environment/library_path.sh
+[0.305s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/environment/library_path.dsv
+[0.305s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[0.305s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces
+[0.305s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg
+[0.306s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.306s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg/detail
+[0.306s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg/detail/mat_with_time__rosidl_typesupport_fastrtps_c.h
+[0.306s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[0.306s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces
+[0.306s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg
+[0.306s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg/detail
+[0.306s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg/detail/mat_with_time__rosidl_typesupport_fastrtps_cpp.hpp
+[0.306s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg/detail/dds_fastrtps
+[0.306s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.306s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.306s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces
+[0.306s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg
+[0.306s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.306s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg/detail
+[0.307s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg/detail/mat_with_time__type_support.c
+[0.307s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg/detail/mat_with_time__rosidl_typesupport_introspection_c.h
+[0.307s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[0.307s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[0.307s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces
+[0.307s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg
+[0.307s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg/detail
+[0.307s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg/detail/mat_with_time__builder.hpp
+[0.307s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg/detail/mat_with_time__struct.hpp
+[0.307s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg/detail/mat_with_time__traits.hpp
+[0.307s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg/mat_with_time.hpp
+[0.307s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces
+[0.307s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg
+[0.307s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg/detail
+[0.307s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg/detail/mat_with_time__rosidl_typesupport_introspection_cpp.hpp
+[0.307s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/include/interfaces/msg/detail/mat_with_time__type_support.cpp
+[0.307s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[0.308s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[0.308s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/environment/pythonpath.sh
+[0.308s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[0.308s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py
+[0.335s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/python3.8/site-packages/interfaces/msg
+[0.335s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_mat_with_time_s.c
+[0.335s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_mat_with_time.py
+[0.335s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/python3.8/site-packages/interfaces/msg/__init__.py
+[0.335s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.335s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.336s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.336s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/libinterfaces__python.so
+[0.336s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/msg/MatWithTime.idl
+[0.336s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/msg/MatWithTime.msg
+[0.336s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[0.337s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[0.337s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[0.337s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[0.337s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/environment/path.sh
+[0.337s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/environment/path.dsv
+[0.337s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/local_setup.bash
+[0.337s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/local_setup.sh
+[0.337s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/local_setup.zsh
+[0.337s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/local_setup.dsv
+[0.337s] -- Installing: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/package.dsv
+[0.337s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[0.338s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport.cmake
+[0.338s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.338s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.338s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.338s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[0.338s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.338s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cppExport.cmake
+[0.338s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.338s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.338s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[0.338s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.339s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[0.339s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.339s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.339s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.339s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.339s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.339s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.339s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[0.339s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[0.339s] -- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/package.xml
+[0.341s] Invoked command in '/home/peter/ros2/UsbCaptureROS4/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --install /home/peter/ros2/UsbCaptureROS4/build/interfaces

@@ -1,0 +1,7 @@
+[01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:[m[K In member function ‘[01m[Kvoid wmj::camera_node::timer_call_back()[m[K’:
+[01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:34:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kcapture[m[K’ is not a member of ‘[01m[Kwmj::camera_node[m[K’
+   34 |         if ((camera_node::[01;31m[Kcapture[m[K >> frame) != 0)
+      |                           [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/camera_component.dir/build.make:63：CMakeFiles/camera_component.dir/src/RosNode.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:107：CMakeFiles/camera_component.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

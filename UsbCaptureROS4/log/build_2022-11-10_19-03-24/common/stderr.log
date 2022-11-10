@@ -1,0 +1,4 @@
+CMake Warning (dev) at CMakeLists.txt:37 (set):
+  Cannot set "BASE_INCLUDE": current scope has no parent.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+

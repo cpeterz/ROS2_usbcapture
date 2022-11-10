@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target test_component[0m
+[ 60%] Built target camera_component
+[ 80%] [32mBuilding CXX object CMakeFiles/test_component.dir/src/test_get_image.cpp.o[0m

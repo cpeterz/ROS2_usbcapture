@@ -1,0 +1,16 @@
+[0.015s] Invoking command in '/home/peter/ros2.1/UsbCaptureROS4/build/ros2_usbcapture': CMAKE_PREFIX_PATH=/home/peter/ros2.1/UsbCaptureROS4/install/interfaces:/home/peter/ros2.1/UsbCaptureROS4/install/common:/home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture:/opt/ros/foxy LD_LIBRARY_PATH=/home/peter/ros2.1/UsbCaptureROS4/install/interfaces/lib:/home/peter/ros2.1/UsbCaptureROS4/install/common/lib:/home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /bin/cmake --build /home/peter/ros2.1/UsbCaptureROS4/build/ros2_usbcapture -- -j16 -l16
+[0.054s] [35m[1mScanning dependencies of target test_component[0m
+[0.055s] [35m[1mScanning dependencies of target camera_component[0m
+[0.083s] [ 40%] [32mBuilding CXX object CMakeFiles/camera_component.dir/src/RosNode.cpp.o[0m
+[0.083s] [ 40%] [32mBuilding CXX object CMakeFiles/test_component.dir/src/test_get_image.cpp.o[0m
+[1.854s] [01m[K/home/peter/ros2.1/UsbCaptureROS4/src/ros2_usbcapture/src/test_get_image.cpp:[m[K In member function ‘[01m[Kvoid wmj::Image_get_test::call_back(interfaces::msg::MatWithTime_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.855s] [01m[K/home/peter/ros2.1/UsbCaptureROS4/src/ros2_usbcapture/src/test_get_image.cpp:38:20:[m[K [01;31m[Kerror: [m[K‘[01m[Km_orientation[m[K’ was not declared in this scope
+[1.855s]    38 |         cv::imshow([01;31m[Km_orientation[m[K, cv_ptr->image);
+[1.855s]       |                    [01;31m[K^~~~~~~~~~~~~[m[K
+[3.430s] [ 60%] [32m[1mLinking CXX shared library libcamera_component.so[0m
+[3.461s] make[2]: *** [CMakeFiles/test_component.dir/build.make:63：CMakeFiles/test_component.dir/src/test_get_image.cpp.o] 错误 1
+[3.461s] make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/test_component.dir/all] 错误 2
+[3.461s] make[1]: *** 正在等待未完成的任务....
+[3.678s] [ 80%] Built target camera_component
+[3.679s] make: *** [Makefile:141：all] 错误 2
+[3.680s] Invoked command in '/home/peter/ros2.1/UsbCaptureROS4/build/ros2_usbcapture' returned '2': CMAKE_PREFIX_PATH=/home/peter/ros2.1/UsbCaptureROS4/install/interfaces:/home/peter/ros2.1/UsbCaptureROS4/install/common:/home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture:/opt/ros/foxy LD_LIBRARY_PATH=/home/peter/ros2.1/UsbCaptureROS4/install/interfaces/lib:/home/peter/ros2.1/UsbCaptureROS4/install/common/lib:/home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /bin/cmake --build /home/peter/ros2.1/UsbCaptureROS4/build/ros2_usbcapture -- -j16 -l16

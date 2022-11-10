@@ -1,0 +1,107 @@
+[0.000000] (-) TimerEvent: {}
+[0.000531] (-) JobUnselected: {'identifier': 'common'}
+[0.000720] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.000756] (ros2_usbcapture) JobQueued: {'identifier': 'ros2_usbcapture', 'dependencies': OrderedDict([('common', '/home/peter/ros2/UsbCaptureROS4/install/common'), ('interfaces', '/home/peter/ros2/UsbCaptureROS4/install/interfaces')])}
+[0.001054] (ros2_usbcapture) JobStarted: {'identifier': 'ros2_usbcapture'}
+[0.014479] (ros2_usbcapture) JobProgress: {'identifier': 'ros2_usbcapture', 'progress': 'cmake'}
+[0.015296] (ros2_usbcapture) JobProgress: {'identifier': 'ros2_usbcapture', 'progress': 'build'}
+[0.016089] (ros2_usbcapture) Command: {'cmd': ['/bin/cmake', '--build', '/home/peter/ros2/UsbCaptureROS4/build/ros2_usbcapture', '--', '-j16', '-l16'], 'cwd': '/home/peter/ros2/UsbCaptureROS4/build/ros2_usbcapture', 'env': OrderedDict([('USER', 'peter'), ('XDG_SESSION_TYPE', 'x11'), ('SSH_AGENT_PID', '1873'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/peter/ros2/UsbCaptureROS4/install/interfaces/lib:/home/peter/ros2/UsbCaptureROS4/install/common/lib:/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/peter'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/peter/ros2'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.70.1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ZSH', '/home/peter/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('MANAGERPID', '1644'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=861711edd773986bcd118354636ba111'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('P9K_TTY', 'old'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3994'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/peter/ros2/UsbCaptureROS4/install'), ('LOGNAME', 'peter'), ('JOURNAL_STREAM', '8:43569'), ('_', '/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'peter'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/bin:/usr/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/peter-ASUS-TUF-Gaming-A15-FA506QM-FA506QM:@/tmp/.ICE-unix/1948,unix/peter-ASUS-TUF-Gaming-A15-FA506QM-FA506QM:/tmp/.ICE-unix/1948'), ('INVOCATION_ID', '8875966d8bee4241b6aaad0d81f28c4d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_MENU_PREFIX', 'gnome-'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LANG', 'zh_CN.UTF-8'), ('VSCODE_INJECTION', '1'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b1cd78ce49.sock'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('AMENT_PREFIX_PATH', '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture:/home/peter/ros2/UsbCaptureROS4/install/interfaces:/home/peter/ros2/UsbCaptureROS4/install/common:/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('LC_ALL', 'zh_CN.UTF-8'), ('PWD', '/home/peter/ros2/UsbCaptureROS4/build/ros2_usbcapture'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=861711edd773986bcd118354636ba111'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZDOTDIR', '/tmp/vscode-zsh'), ('_P9K_TTY', '/dev/pts/5'), ('PYTHONPATH', '/home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/peter/ros2/UsbCaptureROS4/install/interfaces:/home/peter/ros2/UsbCaptureROS4/install/common:/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture:/opt/ros/foxy')]), 'shell': False}
+[0.043125] (ros2_usbcapture) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.061984] (ros2_usbcapture) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /bin/python3\n'}
+[0.099837] (-) TimerEvent: {}
+[0.194602] (ros2_usbcapture) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.199930] (-) TimerEvent: {}
+[0.218774] (ros2_usbcapture) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.220863] (ros2_usbcapture) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.300057] (-) TimerEvent: {}
+[0.303143] (ros2_usbcapture) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.338881] (ros2_usbcapture) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.339786] (ros2_usbcapture) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400140] (-) TimerEvent: {}
+[0.439951] (ros2_usbcapture) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.485748] (ros2_usbcapture) StdoutLine: {'line': b'-- Found common: 0.0.0 (/home/peter/ros2/UsbCaptureROS4/install/common/share/common/cmake)\n'}
+[0.494416] (ros2_usbcapture) StdoutLine: {'line': b'-- Found OpenCV: /usr/local (found suitable version "3.4.13", minimum required is "3.4.13") \n'}
+[0.494723] (ros2_usbcapture) StdoutLine: {'line': b'-- Found interfaces: 0.0.0 (/home/peter/ros2/UsbCaptureROS4/install/interfaces/share/interfaces/cmake)\n'}
+[0.500227] (-) TimerEvent: {}
+[0.600512] (-) TimerEvent: {}
+[0.653688] (ros2_usbcapture) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.6 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[0.661098] (ros2_usbcapture) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[0.700653] (-) TimerEvent: {}
+[0.708041] (ros2_usbcapture) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.708619] (ros2_usbcapture) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.708857] (ros2_usbcapture) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/include\n'}
+[0.708930] (ros2_usbcapture) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.709345] (ros2_usbcapture) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.709418] (ros2_usbcapture) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.709572] (ros2_usbcapture) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.709817] (ros2_usbcapture) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.710021] (ros2_usbcapture) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[0.710450] (ros2_usbcapture) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.710531] (ros2_usbcapture) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.710652] (ros2_usbcapture) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.712417] (ros2_usbcapture) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.727082] (ros2_usbcapture) StdoutLine: {'line': b'-- Generating done\n'}
+[0.728223] (ros2_usbcapture) StdoutLine: {'line': b'-- Build files have been written to: /home/peter/ros2/UsbCaptureROS4/build/ros2_usbcapture\n'}
+[0.752622] (ros2_usbcapture) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target camera_component\x1b[0m\n'}
+[0.772028] (ros2_usbcapture) StdoutLine: {'line': b'[ 40%] Built target test_component\n'}
+[0.781479] (ros2_usbcapture) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/camera_component.dir/src/UsbCaptureSystem.cpp.o\x1b[0m\n'}
+[0.800763] (-) TimerEvent: {}
+[0.901056] (-) TimerEvent: {}
+[1.001357] (-) TimerEvent: {}
+[1.101632] (-) TimerEvent: {}
+[1.201928] (-) TimerEvent: {}
+[1.302213] (-) TimerEvent: {}
+[1.402496] (-) TimerEvent: {}
+[1.502788] (-) TimerEvent: {}
+[1.603116] (-) TimerEvent: {}
+[1.703405] (-) TimerEvent: {}
+[1.803707] (-) TimerEvent: {}
+[1.903992] (-) TimerEvent: {}
+[2.004282] (-) TimerEvent: {}
+[2.104571] (-) TimerEvent: {}
+[2.204861] (-) TimerEvent: {}
+[2.305145] (-) TimerEvent: {}
+[2.405429] (-) TimerEvent: {}
+[2.505714] (-) TimerEvent: {}
+[2.606004] (-) TimerEvent: {}
+[2.706287] (-) TimerEvent: {}
+[2.806597] (-) TimerEvent: {}
+[2.906876] (-) TimerEvent: {}
+[3.007150] (-) TimerEvent: {}
+[3.107475] (-) TimerEvent: {}
+[3.208271] (-) TimerEvent: {}
+[3.308565] (-) TimerEvent: {}
+[3.408871] (-) TimerEvent: {}
+[3.417079] (ros2_usbcapture) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libcamera_component.so\x1b[0m\n'}
+[3.508985] (-) TimerEvent: {}
+[3.609347] (-) TimerEvent: {}
+[3.688581] (ros2_usbcapture) StdoutLine: {'line': b'[100%] Built target camera_component\n'}
+[3.698625] (ros2_usbcapture) CommandEnded: {'returncode': 0}
+[3.709456] (-) TimerEvent: {}
+[3.726137] (ros2_usbcapture) JobProgress: {'identifier': 'ros2_usbcapture', 'progress': 'install'}
+[3.741612] (ros2_usbcapture) Command: {'cmd': ['/bin/cmake', '--install', '/home/peter/ros2/UsbCaptureROS4/build/ros2_usbcapture'], 'cwd': '/home/peter/ros2/UsbCaptureROS4/build/ros2_usbcapture', 'env': OrderedDict([('USER', 'peter'), ('XDG_SESSION_TYPE', 'x11'), ('SSH_AGENT_PID', '1873'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/peter/ros2/UsbCaptureROS4/install/interfaces/lib:/home/peter/ros2/UsbCaptureROS4/install/common/lib:/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/peter'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/peter/ros2'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.70.1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ZSH', '/home/peter/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('MANAGERPID', '1644'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=861711edd773986bcd118354636ba111'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('P9K_TTY', 'old'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3994'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/peter/ros2/UsbCaptureROS4/install'), ('LOGNAME', 'peter'), ('JOURNAL_STREAM', '8:43569'), ('_', '/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'peter'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/bin:/usr/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/peter-ASUS-TUF-Gaming-A15-FA506QM-FA506QM:@/tmp/.ICE-unix/1948,unix/peter-ASUS-TUF-Gaming-A15-FA506QM-FA506QM:/tmp/.ICE-unix/1948'), ('INVOCATION_ID', '8875966d8bee4241b6aaad0d81f28c4d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_MENU_PREFIX', 'gnome-'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LANG', 'zh_CN.UTF-8'), ('VSCODE_INJECTION', '1'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b1cd78ce49.sock'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('AMENT_PREFIX_PATH', '/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture:/home/peter/ros2/UsbCaptureROS4/install/interfaces:/home/peter/ros2/UsbCaptureROS4/install/common:/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('LC_ALL', 'zh_CN.UTF-8'), ('PWD', '/home/peter/ros2/UsbCaptureROS4/build/ros2_usbcapture'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=861711edd773986bcd118354636ba111'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZDOTDIR', '/tmp/vscode-zsh'), ('_P9K_TTY', '/dev/pts/5'), ('PYTHONPATH', '/home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/peter/ros2/UsbCaptureROS4/install/interfaces:/home/peter/ros2/UsbCaptureROS4/install/common:/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture:/opt/ros/foxy')]), 'shell': False}
+[3.747917] (ros2_usbcapture) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.748112] (ros2_usbcapture) StdoutLine: {'line': b'-- Installing: /home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/lib/libcamera_component.so\n'}
+[3.750114] (ros2_usbcapture) StdoutLine: {'line': b'-- Set runtime path of "/home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/lib/libcamera_component.so" to ""\n'}
+[3.750272] (ros2_usbcapture) StdoutLine: {'line': b'-- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/lib/libtest_component.so\n'}
+[3.750410] (ros2_usbcapture) StdoutLine: {'line': b'-- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/launch\n'}
+[3.750507] (ros2_usbcapture) StdoutLine: {'line': b'-- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/launch/image.launch.py\n'}
+[3.750607] (ros2_usbcapture) StdoutLine: {'line': b'-- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ament_index/resource_index/package_run_dependencies/ros2_usbcapture\n'}
+[3.750679] (ros2_usbcapture) StdoutLine: {'line': b'-- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ament_index/resource_index/parent_prefix_path/ros2_usbcapture\n'}
+[3.750764] (ros2_usbcapture) StdoutLine: {'line': b'-- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/environment/ament_prefix_path.sh\n'}
+[3.750847] (ros2_usbcapture) StdoutLine: {'line': b'-- Installing: /home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/environment/ament_prefix_path.dsv\n'}
+[3.750929] (ros2_usbcapture) StdoutLine: {'line': b'-- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/environment/path.sh\n'}
+[3.751027] (ros2_usbcapture) StdoutLine: {'line': b'-- Installing: /home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/environment/path.dsv\n'}
+[3.751099] (ros2_usbcapture) StdoutLine: {'line': b'-- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/local_setup.bash\n'}
+[3.751189] (ros2_usbcapture) StdoutLine: {'line': b'-- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/local_setup.sh\n'}
+[3.751261] (ros2_usbcapture) StdoutLine: {'line': b'-- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/local_setup.zsh\n'}
+[3.751348] (ros2_usbcapture) StdoutLine: {'line': b'-- Installing: /home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/local_setup.dsv\n'}
+[3.751446] (ros2_usbcapture) StdoutLine: {'line': b'-- Installing: /home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/package.dsv\n'}
+[3.751536] (ros2_usbcapture) StdoutLine: {'line': b'-- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ament_index/resource_index/packages/ros2_usbcapture\n'}
+[3.751614] (ros2_usbcapture) StdoutLine: {'line': b'-- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ament_index/resource_index/rclcpp_components/ros2_usbcapture\n'}
+[3.751696] (ros2_usbcapture) StdoutLine: {'line': b'-- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/cmake/ros2_usbcaptureConfig.cmake\n'}
+[3.751771] (ros2_usbcapture) StdoutLine: {'line': b'-- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/cmake/ros2_usbcaptureConfig-version.cmake\n'}
+[3.751846] (ros2_usbcapture) StdoutLine: {'line': b'-- Up-to-date: /home/peter/ros2/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/package.xml\n'}
+[3.752780] (ros2_usbcapture) CommandEnded: {'returncode': 0}
+[3.803304] (ros2_usbcapture) JobEnded: {'identifier': 'ros2_usbcapture', 'rc': 0}
+[3.803918] (-) EventReactorShutdown: {}

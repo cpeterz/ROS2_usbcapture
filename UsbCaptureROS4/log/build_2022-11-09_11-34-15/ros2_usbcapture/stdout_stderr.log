@@ -1,0 +1,31 @@
+[35m[1mScanning dependencies of target camera_component[0m
+[ 40%] Built target test_component
+[ 60%] [32mBuilding CXX object CMakeFiles/camera_component.dir/src/RosNode.cpp.o[0m
+[01m[K<command-line>:[m[K [01;31m[Kerror: [m[Kexpected identifier before string constant
+[01m[K<command-line>:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KUSBCAPTURE_CFG[m[K’
+[01m[K<command-line>:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before string constant
+[01m[K<command-line>:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KUSBCAPTURE_CFG[m[K’
+[01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:[m[K In constructor ‘[01m[Kwmj::camera_node::camera_node(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:10:22:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kwmj::UsbCaptureSystem wmj::camera_node::capture(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   10 |         camera_num = [01;31m[Kcapture[m[K.activeCameraCount();
+      |                      [01;31m[K^~~~~~~[m[K
+[01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:12:9:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kwmj::UsbCaptureSystem wmj::camera_node::capture(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   12 |         [01;31m[Kcapture[m[K.cameraMode("armor");
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:13:9:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kwmj::UsbCaptureSystem wmj::camera_node::capture(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   13 |         [01;31m[Kcapture[m[K.getCameraInfo();
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:[m[K In function ‘[01m[Kvoid wmj::timer_call_back()[m[K’:
+[01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:59:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kcapture[m[K’ was not declared in this scope; did you mean ‘[01m[KCvCapture[m[K’?
+   59 |             if (([01;31m[Kcapture[m[K >> frame) != 0)
+      |                  [01;31m[K^~~~~~~[m[K
+      |                  [32m[KCvCapture[m[K
+[01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:62:17:[m[K [01;31m[Kerror: [m[Kcontinue statement not within a loop
+   62 |                 [01;31m[Kcontinue[m[K;
+      |                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:81:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_image[m[K’ was not declared in this scope
+   81 |             [01;31m[Kpub_image[m[K->publish(std::move(msg));
+      |             [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/camera_component.dir/build.make:63：CMakeFiles/camera_component.dir/src/RosNode.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:107：CMakeFiles/camera_component.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

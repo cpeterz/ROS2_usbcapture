@@ -1,0 +1,8 @@
+[01m[K/home/peter/ros2.1/UsbCaptureROS4/src/ros2_usbcapture/src/test_get_image.cpp:[m[K In member function ‘[01m[Kvoid wmj::Image_get_test::call_back(interfaces::msg::MatWithTime_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/peter/ros2.1/UsbCaptureROS4/src/ros2_usbcapture/src/test_get_image.cpp:38:20:[m[K [01;31m[Kerror: [m[K‘[01m[Km_orientation[m[K’ was not declared in this scope
+   38 |         cv::imshow([01;31m[Km_orientation[m[K, cv_ptr->image);
+      |                    [01;31m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/test_component.dir/build.make:63：CMakeFiles/test_component.dir/src/test_get_image.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/test_component.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make: *** [Makefile:141：all] 错误 2

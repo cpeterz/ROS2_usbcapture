@@ -1,0 +1,31 @@
+[01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:[m[K In member function ‘[01m[Kvoid wmj::camera_node::timer_call_back()[m[K’:
+[01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:40:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<wmj::MatWithTime>[m[K’ has no member named ‘[01m[Km_img[m[K’
+   40 |         if (frame.[01;31m[Km_img[m[K.empty())
+      |                   [01;31m[K^~~~~[m[K
+[01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:43:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<wmj::MatWithTime>[m[K’ has no member named ‘[01m[Km_img[m[K’
+   43 |             frame.[01;31m[Km_img[m[K = empty;
+      |                   [01;31m[K^~~~~[m[K
+[01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:44:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<wmj::MatWithTime>[m[K’ has no member named ‘[01m[Km_img[m[K’
+   44 |             cv::putText(frame.[01;31m[Km_img[m[K, "No Image", cv::Point(400, 400), cv::FONT_HERSHEY_COMPLEX, 3, cv::Scalar::all(255), 1);
+      |                               [01;31m[K^~~~~[m[K
+[01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:45:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<wmj::MatWithTime>[m[K’ has no member named ‘[01m[Km_img[m[K’
+   45 |             cv::putText(frame.[01;31m[Km_img[m[K, "This frame", cv::Point(350, 500), cv::FONT_HERSHEY_COMPLEX, 3, cv::Scalar::all(255), 1);
+      |                               [01;31m[K^~~~~[m[K
+[01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:46:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<wmj::MatWithTime>[m[K’ has no member named ‘[01m[Km_img[m[K’
+   46 |             cv::putText(frame.[01;31m[Km_img[m[K, "is empty!", cv::Point(350, 600), cv::FONT_HERSHEY_COMPLEX, 3, cv::Scalar::all(255), 1);
+      |                               [01;31m[K^~~~~[m[K
+[01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:53:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<wmj::MatWithTime>[m[K’ has no member named ‘[01m[Km_img[m[K’
+   53 |         cv_ptr->image = frame.[01;31m[Km_img[m[K;
+      |                               [01;31m[K^~~~~[m[K
+[01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:55:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<wmj::MatWithTime>[m[K’ has no member named ‘[01m[Km_orientation[m[K’
+   55 |         msg->orientation = frame.[01;31m[Km_orientation[m[K;
+      |                                  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:56:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<wmj::MatWithTime>[m[K’ has no member named ‘[01m[Km_time_stamp[m[K’
+   56 |         msg->time_stamp = frame.[01;31m[Km_time_stamp[m[K;
+      |                                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:57:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<wmj::MatWithTime>[m[K’ has no member named ‘[01m[Km_time_stamp[m[K’
+   57 |         std::cout << "test_time_stamp" << frame.[01;31m[Km_time_stamp[m[K << std::endl;
+      |                                                 [01;31m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/camera_component.dir/build.make:63：CMakeFiles/camera_component.dir/src/RosNode.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:107：CMakeFiles/camera_component.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

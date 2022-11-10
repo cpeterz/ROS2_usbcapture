@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target camera_component[0m
+[ 40%] Built target test_component
+[ 60%] [32mBuilding CXX object CMakeFiles/camera_component.dir/src/RosNode.cpp.o[0m

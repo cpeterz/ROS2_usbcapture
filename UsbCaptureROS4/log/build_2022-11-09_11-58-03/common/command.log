@@ -1,0 +1,4 @@
+Invoking command in '/home/peter/ros2/UsbCaptureROS4/build/common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --build /home/peter/ros2/UsbCaptureROS4/build/common -- -j16 -l16
+Invoked command in '/home/peter/ros2/UsbCaptureROS4/build/common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --build /home/peter/ros2/UsbCaptureROS4/build/common -- -j16 -l16
+Invoking command in '/home/peter/ros2/UsbCaptureROS4/build/common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --install /home/peter/ros2/UsbCaptureROS4/build/common
+Invoked command in '/home/peter/ros2/UsbCaptureROS4/build/common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --install /home/peter/ros2/UsbCaptureROS4/build/common

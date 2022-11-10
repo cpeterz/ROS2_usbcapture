@@ -1,0 +1,33 @@
+[0.014s] Invoking command in '/home/peter/ros2/UsbCaptureROS4/build/ros2_usbcapture': AMENT_PREFIX_PATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces:/home/peter/ros2/UsbCaptureROS4/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces:/home/peter/ros2/UsbCaptureROS4/install/common:/opt/ros/foxy LD_LIBRARY_PATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces/lib:/home/peter/ros2/UsbCaptureROS4/install/common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /bin/cmake --build /home/peter/ros2/UsbCaptureROS4/build/ros2_usbcapture -- -j16 -l16
+[0.055s] [35m[1mScanning dependencies of target camera_component[0m
+[0.072s] [ 40%] Built target test_component
+[0.082s] [ 60%] [32mBuilding CXX object CMakeFiles/camera_component.dir/src/RosNode.cpp.o[0m
+[1.787s] [01m[K<command-line>:[m[K [01;31m[Kerror: [m[Kexpected identifier before string constant
+[1.787s] [01m[K<command-line>:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KUSBCAPTURE_CFG[m[K’
+[1.787s] [01m[K<command-line>:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before string constant
+[1.787s] [01m[K<command-line>:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KUSBCAPTURE_CFG[m[K’
+[1.788s] [01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:[m[K In constructor ‘[01m[Kwmj::camera_node::camera_node(const rclcpp::NodeOptions&)[m[K’:
+[1.788s] [01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:10:22:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kwmj::UsbCaptureSystem wmj::camera_node::capture(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[1.788s]    10 |         camera_num = [01;31m[Kcapture[m[K.activeCameraCount();
+[1.788s]       |                      [01;31m[K^~~~~~~[m[K
+[1.788s] [01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:12:9:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kwmj::UsbCaptureSystem wmj::camera_node::capture(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[1.788s]    12 |         [01;31m[Kcapture[m[K.cameraMode("armor");
+[1.788s]       |         [01;31m[K^~~~~~~[m[K
+[1.788s] [01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:13:9:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kwmj::UsbCaptureSystem wmj::camera_node::capture(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[1.788s]    13 |         [01;31m[Kcapture[m[K.getCameraInfo();
+[1.788s]       |         [01;31m[K^~~~~~~[m[K
+[1.800s] [01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:[m[K In function ‘[01m[Kvoid wmj::timer_call_back()[m[K’:
+[1.800s] [01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:59:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kcapture[m[K’ was not declared in this scope; did you mean ‘[01m[KCvCapture[m[K’?
+[1.800s]    59 |             if (([01;31m[Kcapture[m[K >> frame) != 0)
+[1.800s]       |                  [01;31m[K^~~~~~~[m[K
+[1.800s]       |                  [32m[KCvCapture[m[K
+[1.801s] [01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:62:17:[m[K [01;31m[Kerror: [m[Kcontinue statement not within a loop
+[1.801s]    62 |                 [01;31m[Kcontinue[m[K;
+[1.801s]       |                 [01;31m[K^~~~~~~~[m[K
+[1.812s] [01m[K/home/peter/ros2/UsbCaptureROS4/src/ros2_usbcapture/src/RosNode.cpp:81:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_image[m[K’ was not declared in this scope
+[1.812s]    81 |             [01;31m[Kpub_image[m[K->publish(std::move(msg));
+[1.812s]       |             [01;31m[K^~~~~~~~~[m[K
+[2.579s] make[2]: *** [CMakeFiles/camera_component.dir/build.make:63：CMakeFiles/camera_component.dir/src/RosNode.cpp.o] 错误 1
+[2.579s] make[1]: *** [CMakeFiles/Makefile2:107：CMakeFiles/camera_component.dir/all] 错误 2
+[2.579s] make: *** [Makefile:141：all] 错误 2
+[2.581s] Invoked command in '/home/peter/ros2/UsbCaptureROS4/build/ros2_usbcapture' returned '2': AMENT_PREFIX_PATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces:/home/peter/ros2/UsbCaptureROS4/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces:/home/peter/ros2/UsbCaptureROS4/install/common:/opt/ros/foxy LD_LIBRARY_PATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces/lib:/home/peter/ros2/UsbCaptureROS4/install/common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peter/ros2/UsbCaptureROS4/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /bin/cmake --build /home/peter/ros2/UsbCaptureROS4/build/ros2_usbcapture -- -j16 -l16
