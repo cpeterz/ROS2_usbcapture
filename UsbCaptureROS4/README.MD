@@ -1,4 +1,4 @@
-# ROS2相机封装 v1.0
+# ROS2相机封装 v1.1
 
 ==此版暂时只实现了单目软触发==
 
@@ -20,9 +20,7 @@
 
 获取图像的时间戳: `msg->time_stamp`   
 
-类型转换:` cv_ptr = cv_bridge::toCvCopy(msg->image)`    
-
-获取图像: `cv_ptr->image`
+获取图像： `cv::Mat image = camera_node::ros2_get_img(msg->image);`
 
 ​      
 
