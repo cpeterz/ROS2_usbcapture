@@ -14,6 +14,10 @@ namespace wmj
     public:
         explicit camera_node(const rclcpp::NodeOptions & options);
 
+        //利用 ros2_get_img 获取图像，传入类型为 sensor_msgs::msg::Image ，返回为 cv::Mat 类型
+        static cv::Mat ros2_get_img(sensor_msgs::msg::Image img);
+
+
     private:
         //创建发布者
         rclcpp::Publisher<interfaces::msg::MatWithTime>::SharedPtr pub_image;

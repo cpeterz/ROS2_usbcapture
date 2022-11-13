@@ -11,6 +11,7 @@
 #include "rclcpp/rclcpp.hpp"
 #include "UsbCaptureSystem.h"
 #include "cv_bridge/cv_bridge.h"
+#include "RosNode.h"
 
 namespace wmj
 {
@@ -29,12 +30,6 @@ namespace wmj
 
         //声明发布者
         rclcpp::Subscription<interfaces::msg::MatWithTime>::SharedPtr sub_image;
-        
-        //声明 cv::image 指针，内含cv::Mat
-        cv_bridge::CvImageConstPtr cv_ptr;
-        
-        // toCvShare() 使用
-        // sensor_msgs::msg::Image::ConstPtr img_ptr;
         
         //用于测试帧率
         // int num;

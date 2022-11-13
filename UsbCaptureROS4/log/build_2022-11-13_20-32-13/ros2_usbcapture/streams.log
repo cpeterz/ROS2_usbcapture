@@ -1,0 +1,60 @@
+[0.013s] Invoking command in '/home/peter/ROS/UsbCaptureROS4/build/ros2_usbcapture': AMENT_PREFIX_PATH=/home/peter/ros2.1/UsbCaptureROS4/install/interfaces:/home/peter/ros2.1/UsbCaptureROS4/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peter/ROS/UsbCaptureROS4/install/interfaces:/home/peter/ROS/UsbCaptureROS4/install/common:/opt/ros/foxy LD_LIBRARY_PATH=/home/peter/ros2.1/UsbCaptureROS4/install/interfaces/lib:/home/peter/ROS/UsbCaptureROS4/install/interfaces/lib:/home/peter/ros2.1/UsbCaptureROS4/install/common/lib:/home/peter/ROS/UsbCaptureROS4/install/common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peter/ros2.1/UsbCaptureROS4/install/interfaces/lib/python3.8/site-packages:/home/peter/ROS/UsbCaptureROS4/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /bin/cmake --build /home/peter/ROS/UsbCaptureROS4/build/ros2_usbcapture -- -j16 -l16
+[0.020s] CMake Error: The current CMakeCache.txt directory /home/peter/ROS/UsbCaptureROS4/build/ros2_usbcapture/CMakeCache.txt is different than the directory /home/peter/ros2.1/UsbCaptureROS4/build/ros2_usbcapture where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.039s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.060s] -- Using PYTHON_EXECUTABLE: /bin/python3
+[0.201s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.224s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.226s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.314s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.355s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.356s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.460s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.513s] -- Found common: 0.0.0 (/home/peter/ros2.1/UsbCaptureROS4/install/common/share/common/cmake)
+[0.523s] -- Found interfaces: 0.0.0 (/home/peter/ros2.1/UsbCaptureROS4/install/interfaces/share/interfaces/cmake)
+[0.705s] -- Found cv_bridge: 3.0.6 (/opt/ros/foxy/share/cv_bridge/cmake)
+[0.712s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[0.760s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.760s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.760s] -- Configured cppcheck include dirs: /home/peter/ros2.1/UsbCaptureROS4/src/ros2_usbcapture/include
+[0.761s] -- Configured cppcheck exclude dirs and/or files: 
+[0.761s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.761s] -- Configured cpplint exclude dirs and/or files: 
+[0.761s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.761s] -- Added test 'lint_cmake' to check CMake code style
+[0.762s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.762s] -- Added test 'uncrustify' to check C / C++ code style
+[0.762s] -- Configured uncrustify additional arguments: 
+[0.762s] -- Added test 'xmllint' to check XML markup files
+[0.764s] -- Configuring done
+[0.778s] -- Generating done
+[0.780s] -- Build files have been written to: /home/peter/ros2.1/UsbCaptureROS4/build/ros2_usbcapture
+[0.815s] [ 16%] [32mBuilding CXX object CMakeFiles/test_component.dir/src/test_get_image.cpp.o[0m
+[0.816s] [ 33%] [32mBuilding CXX object CMakeFiles/camera_component.dir/src/RosNode.cpp.o[0m
+[4.291s] [ 50%] [32m[1mLinking CXX shared library libcamera_component.so[0m
+[4.630s] [ 66%] Built target camera_component
+[5.891s] [ 83%] [32m[1mLinking CXX shared library libtest_component.so[0m
+[6.076s] [ 83%] Built target test_component
+[6.087s] Invoked command in '/home/peter/ROS/UsbCaptureROS4/build/ros2_usbcapture' returned '0': AMENT_PREFIX_PATH=/home/peter/ros2.1/UsbCaptureROS4/install/interfaces:/home/peter/ros2.1/UsbCaptureROS4/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peter/ROS/UsbCaptureROS4/install/interfaces:/home/peter/ROS/UsbCaptureROS4/install/common:/opt/ros/foxy LD_LIBRARY_PATH=/home/peter/ros2.1/UsbCaptureROS4/install/interfaces/lib:/home/peter/ROS/UsbCaptureROS4/install/interfaces/lib:/home/peter/ros2.1/UsbCaptureROS4/install/common/lib:/home/peter/ROS/UsbCaptureROS4/install/common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peter/ros2.1/UsbCaptureROS4/install/interfaces/lib/python3.8/site-packages:/home/peter/ROS/UsbCaptureROS4/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /bin/cmake --build /home/peter/ROS/UsbCaptureROS4/build/ros2_usbcapture -- -j16 -l16
+[6.123s] Invoking command in '/home/peter/ROS/UsbCaptureROS4/build/ros2_usbcapture': AMENT_PREFIX_PATH=/home/peter/ros2.1/UsbCaptureROS4/install/interfaces:/home/peter/ros2.1/UsbCaptureROS4/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peter/ROS/UsbCaptureROS4/install/interfaces:/home/peter/ROS/UsbCaptureROS4/install/common:/opt/ros/foxy LD_LIBRARY_PATH=/home/peter/ros2.1/UsbCaptureROS4/install/interfaces/lib:/home/peter/ROS/UsbCaptureROS4/install/interfaces/lib:/home/peter/ros2.1/UsbCaptureROS4/install/common/lib:/home/peter/ROS/UsbCaptureROS4/install/common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peter/ros2.1/UsbCaptureROS4/install/interfaces/lib/python3.8/site-packages:/home/peter/ROS/UsbCaptureROS4/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /bin/cmake --install /home/peter/ROS/UsbCaptureROS4/build/ros2_usbcapture
+[6.136s] -- Install configuration: ""
+[6.136s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/lib/libcamera_component.so
+[6.136s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/lib/libtest_component.so
+[6.137s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/launch
+[6.137s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/launch/image.launch.py
+[6.137s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ament_index/resource_index/package_run_dependencies/ros2_usbcapture
+[6.137s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ament_index/resource_index/parent_prefix_path/ros2_usbcapture
+[6.137s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/environment/ament_prefix_path.sh
+[6.137s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/environment/ament_prefix_path.dsv
+[6.138s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/environment/path.sh
+[6.138s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/environment/path.dsv
+[6.138s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/local_setup.bash
+[6.138s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/local_setup.sh
+[6.138s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/local_setup.zsh
+[6.138s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/local_setup.dsv
+[6.139s] -- Installing: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/package.dsv
+[6.139s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ament_index/resource_index/packages/ros2_usbcapture
+[6.139s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ament_index/resource_index/rclcpp_components/ros2_usbcapture
+[6.139s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/cmake/ros2_usbcaptureConfig.cmake
+[6.139s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/cmake/ros2_usbcaptureConfig-version.cmake
+[6.139s] -- Up-to-date: /home/peter/ros2.1/UsbCaptureROS4/install/ros2_usbcapture/share/ros2_usbcapture/package.xml
+[6.144s] Invoked command in '/home/peter/ROS/UsbCaptureROS4/build/ros2_usbcapture' returned '0': AMENT_PREFIX_PATH=/home/peter/ros2.1/UsbCaptureROS4/install/interfaces:/home/peter/ros2.1/UsbCaptureROS4/install/common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peter/ROS/UsbCaptureROS4/install/interfaces:/home/peter/ROS/UsbCaptureROS4/install/common:/opt/ros/foxy LD_LIBRARY_PATH=/home/peter/ros2.1/UsbCaptureROS4/install/interfaces/lib:/home/peter/ROS/UsbCaptureROS4/install/interfaces/lib:/home/peter/ros2.1/UsbCaptureROS4/install/common/lib:/home/peter/ROS/UsbCaptureROS4/install/common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peter/ros2.1/UsbCaptureROS4/install/interfaces/lib/python3.8/site-packages:/home/peter/ROS/UsbCaptureROS4/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /bin/cmake --install /home/peter/ROS/UsbCaptureROS4/build/ros2_usbcapture

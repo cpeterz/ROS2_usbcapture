@@ -11,23 +11,8 @@ namespace wmj
 
     void Image_get_test::call_back(const interfaces::msg::MatWithTime::SharedPtr msg)
     {
-        //获取图像，最终图像通过 cv_ptr->image 获取，为cv::Mat型
-        try
-        {
-            //把msg里的 Image 转换为 cv::mat类型 , 有两种方式 toCvCopy() 和 toCvShare() ,toCvShare() 虽然可以实现直接引用不用拷贝，
-            //但需要创建 sensors_msgs::ImageConst 指针，经测试二者差别不大，故用toCvCopy().后续还可改进.
-            cv_ptr = cv_bridge::toCvCopy(msg->image);
-            
-            // toCvShare() 方法
-            //img_ptr = std::make_shared<const sensor_msgs::msg::Image>(msg->image);
-            //cv_ptr = cv_bridge::toCvCopy(img_ptr);
-        
-        }
-        catch (cv_bridge::Exception &e)
-        {
-            RCLCPP_INFO(this->get_logger(), "cv_bridge exception:%s", e.what());
-            return;
-        }
+        //利用 ros2_get_img 获取图像，传入类型为 sensor_msgs::msg::Image
+        cv::Mat image = camera_node::ros2_get_img(msg->image);
 
         //以下代码均为测试用：
         
@@ -35,7 +20,7 @@ namespace wmj
         // std::cout << "addr: 0x" << std::hex << &img << std::endl;
 
         //显示图像
-        cv::imshow(msg->orientation, cv_ptr->image);
+        cv::imshow(msg->orientation,image);
         cv::waitKey(1);
 
         // 输出图像地址

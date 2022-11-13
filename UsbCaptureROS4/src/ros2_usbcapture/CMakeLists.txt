@@ -46,6 +46,7 @@ add_library(camera_component SHARED
 
 add_library(test_component SHARED
  src/test_get_image.cpp
+ src/RosNode.cpp
 )
 # target_compile_definitions(camera_component
 #  PRIVATE "COMPOSITION_BUILDING_DLL")
